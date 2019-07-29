@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: "Century Gothic", Century, Arial, Tahoma, sans-serif;
+    font-size: 16px;
+    color: #fff8fe;
+}
+
+h1{
+    background-color: #15a500;
+    padding: .5em;
+}

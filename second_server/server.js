@@ -16,7 +16,7 @@ http.createServer((req, res) => {
             res.end(css);
             break;
         case '/js/app.js' :
-            res.writeHead(200, {'Content-Type': 'text/js'});
+            res.writeHead(200, {'Content-Type': 'text/javascript'});
             res.end(js);
             break;
         default:

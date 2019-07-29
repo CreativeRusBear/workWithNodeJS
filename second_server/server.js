@@ -6,7 +6,6 @@ const css = fs.readFileSync('./src/css/app.css').toString();
 const js = fs.readFileSync('./src/js/app.js').toString();
 
 http.createServer((req, res) => {
-    console.log(req.url);
     switch (req.url) {
         case '/' :
             res.writeHead(200, {'Content-Type': 'text/html'});

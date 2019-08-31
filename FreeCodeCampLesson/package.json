@@ -1,0 +1,14 @@
+{
+  "name": "FreeCodeCampLesson",
+  "version": "1.0.0",
+  "description": "Learn Node.js",
+  "main": "index.js",
+  "keywords": [
+    "Node.js"
+  ],
+  "author": "Artem Gusev <gusev2014russia@mail.ru> (CreativeRusBear)",
+  "license": "MIT",
+  "dependencies": {
+    "esm": "^3.2.25"
+  }
+}

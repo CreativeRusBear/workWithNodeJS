@@ -4,7 +4,7 @@
   "description": "Learn Node.js",
   "main": "index.js",
   "scripts": {
-    "start": "node -r esm server.js",
+    "start": "nodemon -r esm server.js",
     "check": "eslint"
   },
   "keywords": [
@@ -17,6 +17,7 @@
     "express": "github:expressjs/express"
   },
   "devDependencies": {
-    "eslint": "^6.3.0"
+    "eslint": "^6.3.0",
+    "nodemon": "^1.19.1"
   }
 }
